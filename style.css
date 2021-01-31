@@ -1,0 +1,120 @@
+body {
+    background-color: #ff976b;
+    color: #322e6f;
+    margin: 0;
+    min-width: 600px;  
+}
+
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    background: none;
+    width: 100%;
+    padding: 5px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_link, nav_link:visited{
+    color: white;
+    font-family: "Roboto Light";
+    font-size: 1.5em;
+    font-weight: 600;
+    flex: 1 1 32%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav_link:hover {
+    color: #322e6f;
+}
+
+.nav_link:active {
+    color: #000322;
+}
+
+header {
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-weight: 1200;
+    font-size: 3em;
+    font-family: "Droid Sans";
+    background: none;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+#aboutMeHeader {
+    color:white;
+    padding: 0px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#navPlusHeader {
+    background-image: url("Images/cool_background.jpg");
+    height: 395px;
+    width: 100%;
+}
+
+p, h2, h4 {
+    padding-left: 5px;
+}
+
+footer {
+    background-color: #fff1e5;
+    color: #322e6f;
+    height: 2em;
+    margin-bottom: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+    text-align:center;
+    
+}
+
+.portfolio_image {
+    width: 30%;
+}
+
+
+.projects {
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+}
+
+.project {
+    flex: 1 1 30%;
+}
+
+#about {
+    position: relative;
+    text-align: justify;
+}
+
+.mic_image {
+    width: 280px;
+    display: block;
+    margin: 25px auto;
+    
+}
+
+.project_text {
+    text-align: center;
+}
+
+.portfolio_image {
+    display: block;
+    margin: 0 auto;
+}
+
