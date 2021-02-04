@@ -70,7 +70,7 @@ p, h2, h4 {
 }
 
 footer {
-    background-color: #fff1e5;
+    background-color: #ff976b;
     color: #322e6f;
     height: 2em;
     margin-bottom: 0;
@@ -95,11 +95,13 @@ footer {
 
 .project {
     flex: 1 1 30%;
+    
 }
 
 #about {
     position: relative;
     text-align: justify;
+    flex-wrap: wrap;
 }
 
 .mic_image {
@@ -116,5 +118,40 @@ footer {
 .portfolio_image {
     display: block;
     margin: 0 auto;
+}
+
+.open-window {
+    margin-top: 10px;
+    background-color: #ff976b;
+    border: solid 0.1px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.open-window:hover {
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.24), 0 5px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button {
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+}
+
+#contacts {
+    margin-top: 75px;
+}
+
+.window {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 500px;
+    max-width: 80%;
 }
 
