@@ -29,7 +29,7 @@
         <h2 id="aboutMeHeader">About Me</h2>
 
     </div> <!--nav and header for background image-->
-        <p>Hi, I'm Terry Proctor. I study Computing and IT at University. I also study as a self taught programmer in Python and Javascript. I'm passionate about development and I spend nearly every night developing my skills and practicing.</p>
+        <p class="blurb">Hi, I'm Terry Proctor. I study Computing and IT at University. I also study as a self taught programmer in Python and Javascript. I'm passionate about development and I spend nearly every night developing my skills and practicing.</p>
     </section>
 
     <section id="portfolio">
@@ -37,22 +37,40 @@
         <div class="projects">
 
             <div class="project">
-            <img class="portfolio_image" src="Images/sums_screen.jpg" alt="Flashcard project">
-            <div class= "button"><button class= "open-window">Flashcard project</button></div>
+                <img class="portfolio_image" src="Images/sums_screen.jpg" alt="Flashcard project">
+                <div class= "button">
+                    <button id='button1' class= "open-window">Flashcard project</button>
+                </div>
             </div>
 
             <div class="project">
-            <img class="portfolio_image" src="Images/pl_blog.jpg" alt="Powerlifting blog">
-            <div class= "button"><button class= "open-window">Powerlifting blog</button></div>
+                <img class="portfolio_image" src="Images/pl_blog.jpg" alt="Powerlifting blog">
+                <div class= "button">
+                    <button class= "open-window">Powerlifting blog</button>
+                </div>
             </div>
 
             <div class="project">
-            <img class="portfolio_image" src="Images/google_screen.jpg" alt="Google homepage imitation">
-            <div class= "button"><button class= "open-window">Google imitation project</button></div>
+                <img class="portfolio_image" src="Images/google_screen.jpg" alt="Google homepage imitation">
+                <div class= "button">
+                    <button class= "open-window">Google imitation project</button>
+                </div>
+            </div>
         </div>
-    </div>
         
     </section>
+
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn">Open Modal</button>
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>Some text in the Modal..</p>
+        </div>  
+    </div>
 
     <section id="contacts">
         <h4>Email: terryproctor2015@outlook.com</h4>
