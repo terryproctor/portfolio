@@ -2,7 +2,8 @@ body {
     background-color: #ff976b;
     color: #322e6f;
     margin: 0;
-    min-width: 600px;  
+    width: 100%;  
+
 }
 
 
@@ -85,6 +86,7 @@ footer {
 
 .portfolio_image {
     width: 30%;
+    
 }
 
 
@@ -113,7 +115,8 @@ footer {
 .mic_image {
     width: 280px;
     display: block;
-    margin: 25px auto;
+    margin: 40px auto 5px auto;
+    position: relative;
     
 }
 
@@ -202,29 +205,32 @@ footer {
       .logo {
           display: none;
       }
+        .logo_nav_link {
+            Display: none;
+    }
+
   }
 
   @media (max-width:650px) {
       .nav_link {
-          background-color:#ff976b;
-          display:block;
-          width:100%;
+            display:none;
+            cursor: none;
+          
         }
-       nav {
-           background-color:#ff976b;
-           width:100%;
-           display: flex;
-           flex-direction: column;
+       
+
+       .logo_nav_link {
+           display:inline-block;
+           color: white;
+            font-weight: bold;
+            font-size: 1.4rem;
+            text-decoration: none;
        }
+
+       
   }
 
 .toggle {
-    display: block;
-    position: absolute;
-    right: 10px;
-    top: 26px;
-    padding: 5px;
-    cursor: pointer;
-    font-weight: bold;
+    display: none
 
 }
