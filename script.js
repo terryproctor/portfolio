@@ -33,11 +33,13 @@ window.onclick = function(event) {
 var navLinks = document.getElementsByClassName("nav_link");
 var navBar = document.getElementsByClassName("navBar")[0];
 var burgerButton = document.getElementById("burgerWrap");
-
+var aboutHeader = document.getElementById('aboutMeHeader');
 
 burgerButton.addEventListener('click', openDownMenu);
 
 function openDownMenu() {
+aboutHeader.style.display ="none";
+
 navBar.style.display = "contents";
 
 for (var i=0; i<navLinks.length; i++) {
