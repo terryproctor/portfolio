@@ -208,16 +208,19 @@ footer {
         .logo_nav_link {
             Display: none;
     }
-
+        .blurbWrapper {
+            width: 75%;
+            text-align: center;
+            margin: 0 auto;
+        }
   }
 
   @media (max-width:650px) {
       .nav_link {
             display:none;
             cursor: none;
-          
-        }
-       
+      }
+        
 
        .logo_nav_link {
            display:inline-block;
@@ -225,12 +228,9 @@ footer {
             font-weight: bold;
             font-size: 1.4rem;
             text-decoration: none;
+            
        }
 
        
   }
 
-.toggle {
-    display: none
-
-}

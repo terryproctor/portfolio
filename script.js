@@ -2,13 +2,13 @@
 var modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("button1");
+var btn1 = document.getElementsByClassName("open-window")[0];
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal
-btn.onclick = function() {
+btn1.onclick = function() {
   modal.style.display = "block";
 }
 
@@ -24,3 +24,14 @@ window.onclick = function(event) {
   }
 }
 
+
+//////////////////////////////////////////
+//burger menu code//
+
+var burgerButton = document.getElementsByClassName("logo_nav_link")[0]
+
+burgerButton.addEventListener('click', openDownMenu());
+
+function openDownMenu() {
+  
+}
