@@ -247,3 +247,8 @@ footer {
     }
   }
 
+.links {
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    font-weight: bold;
+}
