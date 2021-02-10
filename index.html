@@ -4,17 +4,20 @@
     <meta charset="utf-8">
     <title>Terry Proctor: Developer</title>
     <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
+    
 </head>
 <body>
 
 <div id="navPlusHeader">
-    <nav>
+    <nav class="navBar">
+        <div id = 'burgerWrap'>
+            <a href="#" class="logo_nav_link">&#9776;</a>
+        </div>
         <a class="nav_link" href="#about">About</a>
         <a class="nav_link" href="#portfolio">Portfolio</a>
         <a class="nav_link" href="#contacts">Contact</a>
-        <a href="#" class="logo_nav_link">&#9776;</a>
         
+
     </nav>
     <header>
         <h1>Terry Proctor</h1>
@@ -23,11 +26,11 @@
     <section id="about">
         <img class="mic_image" src="Images/microphone.jpg" alt="Terry speaking into a microphone" width="300px"><br>
         <h2 id="aboutMeHeader">About Me</h2>
-
+        <section class="blurbWrapper">
     </div> <!--nav and header for background image-->
-        <div class="blurbWrapper">
+        <section class="blurbWrapper">
             <p class="blurb">Hi, I'm Terry Proctor. I study Computing and IT at University. I also study as a self taught programmer in Python and Javascript. I'm passionate about development and I spend nearly every night developing my skills and practicing.</p>
-        </div>
+        </section>
     </section>
 
     <section id="portfolio">
@@ -78,4 +81,5 @@
     <footer id>Terry Proctor's Coding Portfolio</footer>
 
 </body>
+<script defer src="script.js"></script>
 </html>

@@ -54,11 +54,16 @@ h1 {
     padding-top: 30px;
 }
 
+#about {
+    display:block;
+}
+
 #aboutMeHeader {
     color:white;
     padding: 0px;
     text-align: center;
     font-size: 24px;
+    position: relative;
 }
 
 #navPlusHeader {
@@ -212,13 +217,16 @@ footer {
             width: 75%;
             text-align: center;
             margin: 0 auto;
+            
         }
+
   }
 
   @media (max-width:650px) {
       .nav_link {
             display:none;
             cursor: none;
+            
       }
         
 
@@ -231,6 +239,11 @@ footer {
             
        }
 
-       
+       #burgerWrap {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
   }
 
