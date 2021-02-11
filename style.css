@@ -153,8 +153,7 @@ footer {
 }
 
 #contacts {
-    margin-top: 75px;
-    margin-bottom: 75px;
+    margin: 75px 30px;
 }
 
 .window {
@@ -186,7 +185,7 @@ footer {
   /* Modal Content/Box */
   .modal-content {
     background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 35% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
@@ -207,6 +206,17 @@ footer {
     cursor: pointer;
   }
 
+  .blurbWrapper {
+      display: flex;
+      margin: 20px auto;
+      justify-content: center;
+      
+  }
+.blurb {
+    text-align: center;
+}
+
+
   @media (min-width:650px) {
       .logo {
           display: none;
@@ -217,7 +227,7 @@ footer {
         .blurbWrapper {
             width: 75%;
             text-align: center;
-            margin: 0 auto;
+            margin: 20px auto;
             
         }
 
